@@ -1,1 +1,1 @@
-# [scrumffed.com][https://www.scrumffed.com]
+# [scrumffed.com](https://www.scrumffed.com)
