@@ -1,0 +1,94 @@
+*{
+    margin: .25em;
+}
+
+body{
+    position: relative;
+    width: auto;
+    background-image: url("obama.png");
+    background-attachment: fixed;
+}
+
+h1{
+    color: #61AFEF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+}
+
+h2{
+    color: #61AFEF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
+}
+
+h3{
+    color: #61AFEF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
+
+p{
+    color: #61AFEF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+button{
+    background-color: #5C6370;
+    border-color: #61AFEF;
+    color:#61AFEF;
+    font-size: 1em;
+}
+button:hover{
+    background-color: #42464e;
+}
+button:active{
+    background-color: #61AFEF;
+    border-color: #5C6370;
+    color: #5C6370;
+}
+
+.content{
+    background-color: #5C6370;
+    opacity: 0.99;
+    border-radius: 25px;
+    padding: 5px;
+    width: auto;
+    height: fit-content;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.moto{
+    text-align: center;
+    margin: auto;
+    background-color: #1f2e4d;
+    border-radius: 25px;
+    padding: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.projects{
+    background-color: #42464e;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.project{
+    background-color: #282b31;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.about{
+    background-color: #42464e;
+    border-radius: 25px;
+    padding: 20px;
+}
