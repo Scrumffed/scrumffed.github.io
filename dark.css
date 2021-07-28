@@ -75,7 +75,7 @@ button:active{
     height: fit-content;
 }
 
-div .moto:hover{
+div.moto:hover{
     background-color: #0d1b36;
 }
 
@@ -92,7 +92,7 @@ div .moto:hover{
 }
 
 
-div .project:hover{
+div.project:hover{
     background-color: #1f2e4d;
 }
 
