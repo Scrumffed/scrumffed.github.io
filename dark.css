@@ -1,11 +1,12 @@
 *{
     margin: .25em;
+    border-radius: 25px;
 }
 
 body{
     position: relative;
     width: auto;
-    background-image: url("obama.png");
+    background-image: url("./obama.png");
     background-attachment: fixed;
 }
 
@@ -34,6 +35,11 @@ p{
     margin: 1em;
 }
 
+a{
+    color: #61AFEF;
+    text-decoration: none;
+}
+
 button{
     background-color: #5C6370;
     border-color: #61AFEF;
@@ -52,8 +58,7 @@ button:active{
 .content{
     background-color: #5C6370;
     opacity: 0.99;
-    border-radius: 25px;
-    padding: 5px;
+    padding: 20px;
     width: auto;
     height: fit-content;
 }
@@ -62,17 +67,18 @@ button:active{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
+    width: 175px;
 }
 
 .moto{
     text-align: center;
     margin: auto;
+    margin-top: 10px;
     background-color: #1f2e4d;
-    border-radius: 25px;
     padding: 5px;
     width: fit-content;
     height: fit-content;
+    box-shadow: 0 0 0 5px #61AFEF;
 }
 
 .moto:hover{
@@ -81,16 +87,15 @@ button:active{
 
 .projects{
     background-color: #42464e;
-    border-radius: 25px;
     padding: 20px;
 }
 
 .project{
     background-color: #282b31;
-    border-radius: 25px;
-    padding: 20px;
+    margin-top: 15px;
+    padding: 15px;
+    box-shadow: 0 0 0 5px #61AFEF;
 }
-
 
 .project:hover{
     background-color: #1f2e4d;
@@ -98,6 +103,10 @@ button:active{
 
 .about{
     background-color: #42464e;
-    border-radius: 25px;
     padding: 20px;
+}
+
+.development{
+    background-color: #42464e;
+    padding: 25px;
 }
