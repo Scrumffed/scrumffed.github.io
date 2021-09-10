@@ -1,7 +1,16 @@
+:root{
+    --border-px: 1px;
+    --main-blue: #61AFEF;
+    --main-blue-light: #84bdec;
+    --main-light-grey: #5C6370;
+    --main-dark-grey: #282b31;
+    --main-grey: #42464e;
+}
+
 *{
     margin: .25em;
     border-radius: 10px;
-    color: #61AFEF;
+    color: var(--main-blue);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -13,32 +22,23 @@ body{
 }
 
 h1{
-    color: #61AFEF;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3em;
 }
 
 h2{
-    color: #61AFEF;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2.5em;
 }
 
 h3{
-    color: #61AFEF;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2em;
 }
 
 p{
-    color: #61AFEF;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5em;
     margin: 1em;
 }
 
 a{
-    color: #61AFEF;
     text-decoration: none;
     margin: 0;
     border-radius: 2.5px;
@@ -46,8 +46,8 @@ a{
 
 button{
     border-radius: 2.5px;
-    background-color: #61AFEF; 
-    border: 1px solid #0d1b36; 
+    background-color: var(--main-blue);
+    border: 1px solid var(--main-dark-grey); 
     color: #282b31; 
     padding: 10px 24px; 
     cursor: pointer;
@@ -55,7 +55,7 @@ button{
 }
 
 button:hover{
-    background-color: #84bdec;
+    background-color: var(--main-blue-light);
 }
 
 .org{
@@ -75,7 +75,8 @@ button:hover{
 }
 
 .menu{
-    background-color: #42464e;
+    background-color: var(--main-grey);
+    box-shadow: 0 0 0 var(--border-px) black;
 }
 
 .btn-panel{
@@ -109,7 +110,7 @@ button:hover{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: var(--main-blue);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -124,20 +125,21 @@ button:hover{
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+    background-color: var(--main-blue-light);
+}
 
-.dropdown:hover .dropdown-content {display: block;}
-
-
-
-
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 .content{
-    background-color: #5C6370;
+    background-color: var(--main-light-grey);
     opacity: 0.99;
     padding: 20px;
     width: auto;
     height: fit-content;
+    box-shadow: 0 0 0 var(--border-px) black;
 }
 
 .center{
@@ -147,28 +149,19 @@ button:hover{
     width: 175px;
 }
 
-.projects{
-    background-color: #42464e;
-    padding: 20px;
-}
-
 .project{
-    background-color: #282b31;
+    background-color: var(--main-grey);
     margin-top: 20px;
     padding: 15px;
-    box-shadow: 0 0 0 5px #61AFEF;
+    box-shadow: 0 0 0 var(--border-px) var(--main-blue);
 }
 
 .project:hover{
-    background-color: #1f2e4d;
+    background-color: var(--main-dark-grey);
 }
 
 .about{
-    background-color: #42464e;
+    background-color: var(--main-grey);
     padding: 20px;
-}
-
-.development{
-    background-color: #42464e;
-    padding: 25px;
+    box-shadow: 0 0 0 var(--border-px) black;
 }
