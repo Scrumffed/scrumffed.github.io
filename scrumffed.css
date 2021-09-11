@@ -9,7 +9,7 @@
 
 *{
     margin: .25em;
-    border-radius: 10px;
+    border-radius: 5px;
     color: var(--main-blue);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -116,6 +116,7 @@ button:hover{
     z-index: 1;
     margin: 0;
     border-radius: 2.5px;
+    box-shadow: 0 0 0 var(--border-px) black;
 }
 
 .dropdown-content a {
@@ -164,4 +165,14 @@ button:hover{
     background-color: var(--main-grey);
     padding: 20px;
     box-shadow: 0 0 0 var(--border-px) black;
+}
+
+.partners{
+    display: flex;
+    justify-content: center;
+}
+
+.partner{
+    margin: 30px;
+    font-size: 1.5em;
 }
