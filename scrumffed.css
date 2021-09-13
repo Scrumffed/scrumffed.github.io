@@ -144,6 +144,8 @@ button:hover{
 }
 
 .project{
+    display: flex;
+    justify-content: center;
     background-color: var(--main-grey);
     margin-top: 20px;
     padding: 15px;
@@ -164,6 +166,12 @@ button:hover{
     margin: 100px;
     display: flex;
     justify-content: center;
+}
+.bot_msg{
+    background-color: var(--main-grey);
+    box-shadow: 0 0 0 var(--border-px) black;
+    margin-top: 20px;
+    padding: 5px;
 }
 
 .partners{
