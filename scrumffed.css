@@ -151,12 +151,16 @@ button:hover{
     padding: 15px;
     box-shadow: 0 0 0 var(--border-px) var(--main-blue);
 }
+.project_title{
+    display: flex;
+    justify-content: center;
+}
 
 .project:hover{
     background-color: var(--main-dark-grey);
 }
 
-.about{
+.info-field{
     background-color: var(--main-grey);
     padding: 20px;
     box-shadow: 0 0 0 var(--border-px) black;
